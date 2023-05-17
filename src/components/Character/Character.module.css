@@ -1,4 +1,14 @@
 .character {
-  /* Fill the available container height */
-  height: 100%;
+	/* Fill the available container height */
+	/* height: 100%; */
+
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	height: 75%;
+	min-height: 500px;
+
+	@media screen and (min-width: 992px) {
+		height: 90%;
+	}
 }
